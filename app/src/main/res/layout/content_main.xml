@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.issuser.demo.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open camera"
+        android:id="@+id/main_open_camera_btn"
+
+      />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="input your name"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/main_input_name_edt"
+
+         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="input your name1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/main_input_name_edt1"
+
+        app:layout_constraintTop_toTopOf="@id/main_input_name_edt" />
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="input your name2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+    android:id="@+id/main_input_name_edt2"
+ />
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
